@@ -1,0 +1,233 @@
+http://opt.zju.edu.cn/appopt/redir.php?catalog_id=124460
+应用光学
+
+光学设计软件
+
+成像设计：
+CodeV(ORA 公司产品，USA)
+Zemax(ZEMAX Development Corporation)
+OSLO( Lambda Research Corporation 公司，USA)
+
+照明设计：
+Lightools（ORA 公司产品，USA）
+ASAP
+Tracepro
+ODIS
+
+光通讯设计软件：OptiWave
+
+薄膜软件：TFCalc, Filmstar等
+
+CodeV（ORA 公司产品，USA）——成像光学设计分析软件
+
+CodeV（ORA 公司产品，USA）——功能
+
+Zemax（Zemax 公司，USA）——光学设计分析软件
+
+Oslo（Lambda Research Corporation 公司，USA）——成像设计分析软件
+
+Lightools（ORA 公司产品，USA）——照明光学设计分析软件
+
+ASAP(Breault Co.) ——照明光学设计分析
+
+
+光学设计应用广泛
+
+眼镜、照相机、CD、VCD/DVD、DC、DV等
+扫描仪、复印机、投影仪等
+显微镜、内窥镜、X光机等
+日常照明、汽车车灯等
+望远镜、瞄准仪、测量仪器
+激光、卫星等光纤通讯
+
+Zemax简介
+
+Zemax软件特点
+
+Zemax公司开发的光学设计软件
+
+• 功能完整（设计、分析、优化、公差分析等）
+• 使用方便
+• 光线追迹算法
+——序列光线追迹
+——非序列光线追迹（蒙特卡洛算法）
+• 完整的数据表格式输入，编辑方便
+• 多功能分析（MTF、点列图等）
+• 多种优化方式
+• 公差分析能力
+
+SE:标准版
+XE:完整版
+EE:专业版（可算非序列）
+ 
+Zemax用户界面
+主要有四种用户界面
+Zemax公司开发的光学设计软件
+—Editors: 编辑各种光学面参数或其他参数
+—Graphic Windows: 显示各种图形数据
+—Text Windows: 显示各种文本数据
+—Dialog Boxes: 编辑其他各种Window 的数据或报告错误信息
+
+1）Editors
+Lens Data Editor：输入透镜参数
+Merit Function Editor ：优化函数构建
+Multi-Configuration Editor：多重结构参数定义
+Tolerance Data Editor ：公差分析函数设定
+Extra Data Editor：附加数据
+Non-Sequential Components Editor: 非序列光学系统
+Lens Data Editor
+
+Merit Funciton Editor
+
+Multi-Configuration Editor
+
+Tolerance Data Editor
+
+Non-Sequential Component Editor
+
+2）图形窗口
+Layout及生成dxf文件
+将物分解为各种空间频率的谱，光学系统的光学特性可视为对各种空间频率的传递和反应能力，从而建立光学传递函数的评价方法。是一种有效、客观、全面的像质评价方法
+MTF的不同表达方式
+Spot Diagram: 由物面一点发出光线经光学系统后，在像面形成一定范围的弥散图形，用点的密集程度衡亮亮成像质量场曲和畸变
+输入光学系统数据：孔径类型、尺寸单位、玻璃库选择、环境设定等
+
+孔径类型
+
+Entrance Pupil Diameter：入瞳直径
+Image Space F#：共轭像空间F数（物为无穷远）
+Object Space NA：物空间数值孔径
+Float by Stop Size：由孔径光阑决定入瞳大小
+Paraxial Working F# ：像空间近轴F数
+Object Cone Angle：边缘光线半角
+Field设置
+
+四种模式
+1、Field Angle: 光线与Z轴的夹角
+2、Object Height：物空间XY高度
+3、Paraxial Image Height：近轴像空间高度
+4、Real Image Height：实际像高
+Field设置
+
+查资料法
+
+E.F.L-----Effective Focus Length（有效焦距）
+
+B.F.L-----Back Focus Length（后工作距）
+
+FNo.-----F Number（相对孔径）
+
+F.A.-----Field Angle（视场角）
+
+
+照相物镜设计实例
+照相物镜的计数指标要求：
+
+焦距：f’=9.6mm；
+相对孔径D/f’不小于1/2.8；
+图像传感器为1/2.5 英吋的CCD，成像面大小为4.32mm×5.76mm；
+后工作距>5mm
+在可见光波段设计(取d、F、C三种色光，d为主波长)；
+1m成像质量，MTF 轴上>40%@100 lp/mm 轴外0.707 >35%@100 lp/mm
+最大畸变<1%
+
+步骤一：确定照相物镜的基本性能要求
+焦距：f’=9.6mm；
+ FNo.>1/2.8；
+像高：y’=sqrt（5.762+4.322)/2=3.6mm 视场角：atan（y’/f’）=20.55度
+后工作距>5mm 反远距比：>5/9.6=0.5208
+在可见光波段设计(取d、F、C三种色光，d为主波长)；
+5m成像质量，MTF 轴上>40%@100 lp/mm 轴外0.707 >35%@100 lp/mm
+最大畸变<1%
+
+步骤二：选择初始结构
+E.F.L----Effective Focus Length（有效焦距）
+B.F.L----Back Focus Length（后工作距）
+FNo.----F Number（相对孔径）
+F.A.----Field Angle （视场角）
+
+步骤三：输入初始结构
+
+步骤四：输入孔径类型/波长
+
+步骤五：整体缩放
+
+步骤六：像质评价
+
+步骤七：优化
+
+（1）优化方法
+
+光学系统结构参数：厚度、间隔、曲率、玻璃材料等
+
+（2）构建优化函数
+
+
+缺省优化函数：优化类型、数据类型、优化参考点类型
+
+
+优化类型
+
+RMS：均方根（常用）
+
+PTV：Peak To Valley（控制点落于某半径内）
+
+数据类型
+
+Wavefront：波前差（<2Waves）
+
+Spot Radius ：点列图半径（〉2Waves）
+
+优化参考点类型
+
+Centroid ：中心
+
+Chief Ray：主光线
+
+评价函数操作数
+
+1、像差SPHA( 球差)、COMA( 彗差)、ASTI( 像散)、FCUR( 场曲)、DIST( 畸变)等
+
+2、调制传递函数MTFT( 子午面传递函数)、MTFS( 弧矢面MTF) 、MTFA 等
+
+3、基本光学特性EFFL( 焦距)、PMAG( 近轴放大率)、AMAG( 角放大率)、EXPP( 出瞳距)、ISFN( 像方F数)等
+
+4、边界约束条件CTGT( 中心厚度大于)、CTLT( 中心厚度小于)、ETGT 、ETLT CVGT 、CVLT
+
+5、基本计算ABSO（绝对值）、ASIN、COSI
+
+边界约束条件：
+
+两种方法：CTGT( 中心厚度大于)、CTLT( 中心厚度小于)、ETGT 、ETLT CVGT 、CVLT 等
+
+缺省优化函数
+
+
+（3）优化
+
+步骤八：像质评价
+
+步骤九：配样板
+由近到远由小到大
+
+步骤十：出图
+
+
+参考文献
+
+中文：
+
+袁沧旭《光学设计》
+李晓彤《几何光学.像差.光学设计》浙大出版社
+
+英文：
+
+《Modern Optical Engineering 》Warren Smith 
+
+《Elements of Modern Optical Design 》Donald O’Shea 
+
+《The Art and Science of Optical Design 》Robert Shannon 
+
+《Practical Computer-Aided Lens Design 》Gregory Hallock Smith 
+
+《光学原理》波恩
